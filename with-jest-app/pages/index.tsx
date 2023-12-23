@@ -6,7 +6,15 @@ import styles from '@/pages/index.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <input data-testid="inputPrice" type='text' />
+      <input data-testid="inputIdea" type='text' />
+
+      <button data-testid="addIdeaButton">
+        Agregar idea
+      </button>
+
+      <ul data-testid="ideaList">
+        <li>Hola</li>
+      </ul>  
     </div>
   )
 }
